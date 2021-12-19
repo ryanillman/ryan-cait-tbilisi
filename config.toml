@@ -1,3 +1,9 @@
 baseURL = 'https://tbilisi.illman.net'
 languageCode = 'en-us'
 title = 'Cait & Ryan in Tbilisi'
+theme = "hugo-theme-cleanwhite"
+
+
+
+[params]
+  header_image = "img/header.jpg"
