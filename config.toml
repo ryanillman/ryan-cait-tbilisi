@@ -1,9 +1,16 @@
-baseURL = 'https://tbilisi.illman.net'
+baseURL = 'http://tbilisi.illman.net'
 languageCode = 'en-us'
 title = 'Cait & Ryan in Tbilisi'
 theme = "hugo-theme-cleanwhite"
+uglyurls = true
 
 
 
 [params]
   header_image = "img/header.jpg"
+
+[deployment]
+
+[[deployment.targets]]
+name="AWS_S3"
+URL = "s3://tbilisi.illman.net?region=us-west-2"
