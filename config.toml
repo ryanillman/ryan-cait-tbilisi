@@ -5,6 +5,7 @@ theme = "hugo-theme-cleanwhite"
 uglyurls = true
 
 
+disqusShortname = "ryan-cait-tbilisi"
 
 [params]
   header_image = "img/header.jpg"
